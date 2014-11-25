@@ -1,0 +1,24 @@
+{
+  "name": "hubot-subreddit-linker",
+  "version": "1.0.0",
+
+  "author": "Adam Edgett <adam.edgett@gmail.com>",
+  "description": "Replies to subreddit references with full links",
+  "keywords": ["hubot", "hubot-scripts", "reddit", "subreddit"],
+  "licenses": [{
+    "type": "MIT"
+  }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdamEdgett/hubot-subreddit-linker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdamEdgett/hubot-subreddit-linker/issues"
+  },
+
+  "main": "./index",
+  "engine": "node > 0.8.0 < 0.11.0",
+  "dependencies": {
+    "coffee-script": "1.6.3"
+  }
+}
