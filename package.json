@@ -1,6 +1,6 @@
 {
   "name": "hubot-subreddit-linker",
-  "version": "1.0.0",
+  "version": "1.0.1",
 
   "author": "Adam Edgett <adam.edgett@gmail.com>",
   "description": "Replies to subreddit references with full links",
