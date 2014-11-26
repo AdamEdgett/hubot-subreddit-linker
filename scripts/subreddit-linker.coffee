@@ -14,6 +14,6 @@
 # AdamEdgett
 
 module.exports = (robot) ->
-  robot.hear /(^|\s)\/?r\/(\w+)($|\s)/i, (msg) ->
-    subreddit = msg.match[2]
-    msg.send "http://reddit.com/r/#{subreddit}"
+  robot.hear /(^|\s)\/?((r|u)\/(\w+))($|\s)/i, (msg) ->
+    urlPath = msg.match[2]
+    msg.send "http://reddit.com/#{urlPath}"
