@@ -1,4 +1,5 @@
 # Hubot subreddit linker
+[![npm](https://img.shields.io/npm/v/hubot-subreddit-linker.svg)](https://www.npmjs.com/package/hubot-subreddit-linker)
 
 Replies to subreddit or reddit user references with full links
 
